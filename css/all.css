@@ -287,8 +287,58 @@ hr {
 @media screen and (max-width: 1024px) and (max-height: 1366px) and (min-width: 1024px) {
     .section .context {
         margin-top: 22%;
+        margin-right: -3.5%;
     }
     .electrothontitle {
         font-size: 700%;
+    }
+    #tagb {
+        font-size: 204%;
+    }
+}
+
+@media screen and (max-width: 1366px) and (max-height: 1024px) and (min-width: 1366px) {
+    .section .context {
+        margin-top: 14%;
+        margin-right: -3.5%;
+    }
+    .electrothontitle {
+        font-size: 700%;
+    }
+    #tagb {
+        font-size: 204%;
+    }
+}
+
+/* ipad */
+@media screen and (max-width: 768px) and (max-height: 1024px) and (min-width: 768px) {
+    .section .context {
+        margin-top: 14%;
+        margin-right: -3.5%;
+    }
+    .electrothontitle {
+        font-size: 500%;
+    }
+    #tagb {
+        font-size: 204%;
+    }
+    .columnb {
+        padding-top: 22%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 768px) and (min-width: 1024px) {
+    .section .context {
+        margin-top: 14%;
+        margin-right: -3.5%;
+    }
+    .electrothontitle {
+        font-size: 500%;
+    }
+    #tagb {
+        font-size: 204%;
+    }
+    .columnb {
+        padding-top: 3%;
     }
 }

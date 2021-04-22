@@ -58,7 +58,7 @@ a {
 @media screen and (max-width: 768px) {
     .title {
         position: absolute;
-        top: 120px;
+        top: 150px;
         left: 0;
         right: 0;
         color: #fff;
