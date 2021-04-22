@@ -342,3 +342,15 @@ hr {
         padding-top: 3%;
     }
 }
+
+@media screen and (max-width: 960px) and (min-width: 768px) {
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0 8px !important;
+    }
+}
+
+@media screen and (width: 280px) and (height: 653px) {
+    .about p {
+        font-size: 12px;
+    }
+}
