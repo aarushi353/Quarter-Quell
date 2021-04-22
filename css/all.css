@@ -1,242 +1,256 @@
 .cta > span {
-	margin-right: 15px;
+    margin-right: 15px;
 }
-/* @media screen,(max-width:1400px) and (min-width:769px)
-{
+@media screen and (max-width: 1400px) and (min-width: 1028px) {
+    .section .context {
+        margin-top: 8.5%;
+        width: 35%;
+    }
+}
 
-}  */
+@media screen and (max-width: 1028px) and (min-width: 973px) {
+    .section .context {
+        margin-top: 15%;
+        width: 37%;
+    }
+}
+
+@media screen and (max-width: 973px) and (min-width: 769px) {
+    .section .context {
+        margin-top: 12%;
+        text-align: justify;
+    }
+    .cta {
+        padding: 3%;
+    }
+}
+
 #about_hack > h1 {
-	margin-left: 15px;
+    margin-left: 15px;
 }
 #video > img {
-	width: 100vw;
-	height: 100vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 #SVGID_1_ > stop {
-	stop-color: #FFFFFF
+    stop-color: #ffffff;
 }
 
 #SVGID_1_ > stop {
-	stop-color: #FFFFFF;
-	stop-opacity: 0
+    stop-color: #ffffff;
+    stop-opacity: 0;
 }
 
 #SVGID_1_ > stop {
-	stop-color: #FFFFFF
+    stop-color: #ffffff;
 }
 
 #SVGID_1_ > stop {
-	stop-color: #FFFFFF;
-	stop-opacity: 0
+    stop-color: #ffffff;
+    stop-opacity: 0;
 }
 
 #sponsor > div {
-	background-color: #0c253b;
-	color: white;
+    background-color: #0c253b;
+    color: white;
 }
 
 .socials > a {
-	color: white;
+    color: white;
 }
 
 .socials > a {
-	color: white;
+    color: white;
 }
 
 .socials > a {
-	color: white;
+    color: white;
 }
 
 .socials > a {
-	color: white;
+    color: white;
 }
 
 .cta > span {
-	margin-right: 15px;
+    margin-right: 15px;
 }
 
 #about_hack > h1 {
-	margin-left: 15px;
+    margin-left: 15px;
 }
 
 #video > img {
-	width: 100vw;
-	height: 100vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 #SVGID_1_ > stop {
-	stop-color: #FFFFFF
+    stop-color: #ffffff;
 }
 
 #SVGID_1_ > stop {
-	stop-color: #FFFFFF;
-	stop-opacity: 0
+    stop-color: #ffffff;
+    stop-opacity: 0;
 }
 
 #SVGID_1_ > stop {
-	stop-color: #FFFFFF
+    stop-color: #ffffff;
 }
 
 #SVGID_1_ > stop {
-	stop-color: #FFFFFF;
-	stop-opacity: 0
+    stop-color: #ffffff;
+    stop-opacity: 0;
 }
 
 #sponsor > div {
-	background-color: #0c253b;
-	color: white;
+    background-color: #0c253b;
+    color: white;
 }
 
 .socials > a {
-	color: white;
+    color: white;
 }
 
 .socials > a {
-	color: white;
+    color: white;
 }
-@media screen and (max-width: 701px)
-{
-	#about_hack{
+@media screen and (max-width: 701px) {
+    #about_hack {
         margin-top: 200px;
     }
 }
 .socials > a {
-	color: white;
+    color: white;
 }
 
 .socials > a {
-	color: white;
+    color: white;
 }
 
 .cta > span {
-	margin-right: 15px;
+    margin-right: 15px;
 }
 
 #about_hack > h1 {
-	margin-left: 15px;
+    margin-left: 15px;
 }
-@media screen and (max-height: 601px)
-{
-    .video-1
-    {
+@media screen and (max-height: 601px) {
+    .video-1 {
         height: 50vh;
     }
-    .about{
+    .about {
         margin-top: 250px;
     }
-
 }
 
 #SVGID_1_ > stop {
-	stop-color: #FFFFFF
+    stop-color: #ffffff;
 }
 
 #SVGID_1_ > stop {
-	stop-color: #FFFFFF;
-	stop-opacity: 0
+    stop-color: #ffffff;
+    stop-opacity: 0;
 }
 
 #SVGID_1_ > stop {
-	stop-color: #FFFFFF
+    stop-color: #ffffff;
 }
 
 #SVGID_1_ > stop {
-	stop-color: #FFFFFF;
-	stop-opacity: 0
+    stop-color: #ffffff;
+    stop-opacity: 0;
 }
 
 #sponsor > div {
-	background-color: #0c253b;
-	color: white;
+    background-color: #0c253b;
+    color: white;
 }
 
 .socials > a {
-	color: white;
+    color: white;
 }
 
 .socials > a {
-	color: white;
+    color: white;
 }
 
 .socials > a {
-	color: white;
+    color: white;
 }
 
 .socials > a {
-	color: white;
+    color: white;
 }
 #tagb {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 #timer {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 #arrow {
-	margin-left: 50px;
+    margin-left: 50px;
 }
 
 #about {
-	padding-top: 20px;
-}
-
-
-#divsponsor {
-	color: white;
+    padding-top: 20px;
 }
 
 #divsponsor {
-	color: white;
+    color: white;
 }
 
 #divsponsor {
-	color: white;
+    color: white;
 }
 
 #divsponsor {
-	color: white;
+    color: white;
 }
 
 #divsponsor {
-	color: white;
+    color: white;
 }
 
 #divsponsor {
-	color: white;
+    color: white;
 }
 
 #divsponsor {
-	color: white;
+    color: white;
+}
+
+#divsponsor {
+    color: white;
 }
 
 #frontlogo {
-	margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .navbar-toggler {
-	background: #fff;
+    background: #fff;
 }
 
 .electrothontitle {
-
-	font-size: 55px;
-	background: -webkit-linear-gradient(#eee, #333);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    font-size: 55px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .cta {
-	height: 20%;
+    height: 20%;
 }
 
 .name {
-	color: gold;
+    color: gold;
 }
 
 .subject {
-	color: gold;
+    color: gold;
 }
 
 .footer_title {
