@@ -1,6 +1,7 @@
 .cta > span {
     margin-right: 15px;
 }
+
 @media screen and (max-width: 1400px) and (min-width: 1028px) {
     .section .context {
         margin-top: 8.5%;
@@ -15,13 +16,10 @@
     }
 }
 
-@media screen and (max-width: 973px) and (min-width: 769px) {
+@media screen and (max-width: 972px) and (min-width: 769px) {
     .section .context {
         margin-top: 12%;
-        text-align: justify;
-    }
-    .cta {
-        padding: 3%;
+        margin-left: -20%;
     }
 }
 
@@ -283,4 +281,14 @@ hr {
     justify-content: start;
     text-align: left;
     padding-left: 0;
+}
+/* ipad pro */
+
+@media screen and (max-width: 1024px) and (max-height: 1366px) and (min-width: 1024px) {
+    .section .context {
+        margin-top: 22%;
+    }
+    .electrothontitle {
+        font-size: 700%;
+    }
 }
