@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  padding: 70px 50px;
+  background: #0D1A29;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+#timer {
+  font-size: 2em;
+  font-weight: 100;
+  color: white;
+  text-shadow: 0 0 45px lightgreen;
+}
+
+#timer div {
+  display: inline-block;
+  min-width: 90px;
+}
+
+#timer div span {
+  color: #B1CDF1;
+  display: block;
+  font-size: .35em;
+  font-weight: 400;
+}

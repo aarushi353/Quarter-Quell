@@ -1,0 +1,272 @@
+.cta > span {
+	margin-right: 15px;
+}
+/* @media screen,(max-width:1400px) and (min-width:769px)
+{
+
+}  */
+#about_hack > h1 {
+	margin-left: 15px;
+}
+#video > img {
+	width: 100vw;
+	height: 100vh;
+}
+
+#SVGID_1_ > stop {
+	stop-color: #FFFFFF
+}
+
+#SVGID_1_ > stop {
+	stop-color: #FFFFFF;
+	stop-opacity: 0
+}
+
+#SVGID_1_ > stop {
+	stop-color: #FFFFFF
+}
+
+#SVGID_1_ > stop {
+	stop-color: #FFFFFF;
+	stop-opacity: 0
+}
+
+#sponsor > div {
+	background-color: #0c253b;
+	color: white;
+}
+
+.socials > a {
+	color: white;
+}
+
+.socials > a {
+	color: white;
+}
+
+.socials > a {
+	color: white;
+}
+
+.socials > a {
+	color: white;
+}
+
+.cta > span {
+	margin-right: 15px;
+}
+
+#about_hack > h1 {
+	margin-left: 15px;
+}
+
+#video > img {
+	width: 100vw;
+	height: 100vh;
+}
+
+#SVGID_1_ > stop {
+	stop-color: #FFFFFF
+}
+
+#SVGID_1_ > stop {
+	stop-color: #FFFFFF;
+	stop-opacity: 0
+}
+
+#SVGID_1_ > stop {
+	stop-color: #FFFFFF
+}
+
+#SVGID_1_ > stop {
+	stop-color: #FFFFFF;
+	stop-opacity: 0
+}
+
+#sponsor > div {
+	background-color: #0c253b;
+	color: white;
+}
+
+.socials > a {
+	color: white;
+}
+
+.socials > a {
+	color: white;
+}
+@media screen and (max-width: 701px)
+{
+	#about_hack{
+        margin-top: 200px;
+    }
+}
+.socials > a {
+	color: white;
+}
+
+.socials > a {
+	color: white;
+}
+
+.cta > span {
+	margin-right: 15px;
+}
+
+#about_hack > h1 {
+	margin-left: 15px;
+}
+@media screen and (max-height: 601px)
+{
+    .video-1
+    {
+        height: 50vh;
+    }
+    .about{
+        margin-top: 250px;
+    }
+
+}
+
+#SVGID_1_ > stop {
+	stop-color: #FFFFFF
+}
+
+#SVGID_1_ > stop {
+	stop-color: #FFFFFF;
+	stop-opacity: 0
+}
+
+#SVGID_1_ > stop {
+	stop-color: #FFFFFF
+}
+
+#SVGID_1_ > stop {
+	stop-color: #FFFFFF;
+	stop-opacity: 0
+}
+
+#sponsor > div {
+	background-color: #0c253b;
+	color: white;
+}
+
+.socials > a {
+	color: white;
+}
+
+.socials > a {
+	color: white;
+}
+
+.socials > a {
+	color: white;
+}
+
+.socials > a {
+	color: white;
+}
+#tagb {
+	font-weight: bold;
+}
+
+#timer {
+	font-weight: bold;
+}
+
+#arrow {
+	margin-left: 50px;
+}
+
+#about {
+	padding-top: 20px;
+}
+
+
+#divsponsor {
+	color: white;
+}
+
+#divsponsor {
+	color: white;
+}
+
+#divsponsor {
+	color: white;
+}
+
+#divsponsor {
+	color: white;
+}
+
+#divsponsor {
+	color: white;
+}
+
+#divsponsor {
+	color: white;
+}
+
+#divsponsor {
+	color: white;
+}
+
+#frontlogo {
+	margin-bottom: 80px;
+}
+
+.navbar-toggler {
+	background: #fff;
+}
+
+.electrothontitle {
+
+	font-size: 55px;
+	background: -webkit-linear-gradient(#eee, #333);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.cta {
+	height: 20%;
+}
+
+.name {
+	color: gold;
+}
+
+.subject {
+	color: gold;
+}
+
+.footer_title {
+    font-size: 1.6em;
+    font-weight: 800;
+    text-align: left;
+}
+
+.footer_content {
+    text-align: left;
+    text-align: justify;
+}
+
+a {
+    color: #007bff;
+}
+
+hr {
+    border-top: 1px dashed white;
+}
+
+.socials {
+    padding: 2%;
+    display: inline;
+    height: 300px;
+    width: 300px;
+}
+
+#social {
+    justify-content: start;
+    text-align: left;
+    padding-left: 0;
+}
