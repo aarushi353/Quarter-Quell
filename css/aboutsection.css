@@ -2,46 +2,32 @@ body {
     margin: 0;
     padding: 0;
 }
-.abouthr {
-    justify-content: center !important;
-    width: 7em;
-}
 
-@media screen and (min-width: 601px) {
-    .about {
-        margin-top: 45em;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .about {
-        margin-top: 15em;
-    }
-}
-
-.about H1 {
+.about h1 {
     font-size: 3em;
     color: black;
 }
+
 .about p {
     /* font-size: 14px; */
     color: #141c27;
-    padding: 0.5em 1em 1em 1em;
+    /* padding: 0.5em 1em 1em 1em; */
 }
 
 /* Create two equal columns that floats next to each other */
 
-.columna {
-    align-content: center;
+.columna{
+    /* align-content: center;
     align-items: center;
-    text-align: center;
-    margin-top: 2em;
+    text-align: center; */
+    margin-top: 10em;
     background-color: transparent !important;
     float: left;
     width: 45%;
-    padding: 4em 2em 1em 2em;
-    height: 580px; /* Should be removed. Only for demonstration */
+    padding: 1em 2em 2em 2em;
+    height: 580px; 
 }
+
 .columnb {
     background-color: transparent !important;
     align-content: center;
@@ -86,13 +72,13 @@ body {
         width: 100%;
     }
 }
+
 #about_img img {
     margin-top: 4em;
     width: 78%;
 }
 #about_img:before {
     position: absolute;
-    content: "";
     right: 40px;
     top: 35px;
     border: 10px solid rgba(255, 255, 255, 0.5);
@@ -119,3 +105,35 @@ body {
 }
 
 /*******mentors***********/
+
+/* media query */
+
+@media screen and (min-width: 601px) and (max-width: 768px){
+    .about {
+        margin-top: 40em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        margin-top: 15em;
+        font-size: 20px;
+    }
+    .about img{
+        size:200%
+    }
+  
+}
+
+@media screen and (width: 1024px) {
+    .about{
+        margin-top: 18em;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px){
+    .about{
+        margin-top: 28em;
+        font-size: 15px;
+    }
+}
