@@ -137,7 +137,6 @@ a {
 
 .section .context {
     width: 100%;
-    z-index: 1;
     color: white;
 }
 
@@ -199,10 +198,6 @@ html {
 
 nav.black {
     background: rgb(22, 29, 40);
-}
-
-#mainNavbar {
-    z-index: 10 !important;
 }
 
 .navbar-light {
