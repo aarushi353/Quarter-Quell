@@ -15,7 +15,18 @@
         width: 37%;
     }
 }
-
+@media screen and (max-width: 420px)
+{
+    .icons{
+        visibility: hidden;
+    }
+}
+@media screen,(max-width: 433px) and (min-width: 280px)
+{
+    #logo{
+        margin-left: 0;
+    }
+}
 @media screen and (max-width: 972px) and (min-width: 769px) {
     .section .context {
         margin-top: 12%;
@@ -353,4 +364,12 @@ hr {
     .about p {
         font-size: 12px;
     }
+
 }
+@media screen and (height: 280px) and (width: 653px) {
+      .electrothontitle{
+          font-size: 12px !important;
+      }
+
+}
+
