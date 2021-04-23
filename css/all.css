@@ -2,7 +2,7 @@
     margin-right: 15px;
 }
 
-@media screen and (max-width: 1400px) and (min-width: 1028px) {
+@media screen and (max-width: 2000px) and (min-width: 1028px) {
     .section .context {
         margin-top: 8.5%;
         width: 35%;
