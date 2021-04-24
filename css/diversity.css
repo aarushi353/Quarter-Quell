@@ -10,15 +10,29 @@ body{font-family: Manjari,sans-serif;
 }
 
    #diverse{
-			margin-bottom: 0;
-			margin-top:0;
+			margin-bottom: -5px;
+			margin-top:-10px;
 	     border-radius: 0px ;
 			background-color: #0c253b;
 			color: white;
 			padding: 0.4em;
 	  
 			}
-	
+      
+  #team
+  {
+    margin-top: -10px;
+   
+  }
+  #bottom{
+   margin-top: -5px;
+  }
+#ourspon{
+  margin-top: -10px;
+}
+#bottom2{
+  margin-top: -5px;
+ }
 .pr_tit{
 	text-align: center !important;
 	margin-bottom: 3em;
