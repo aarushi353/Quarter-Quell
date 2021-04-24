@@ -249,29 +249,28 @@ hr {
     text-align: left;
     padding-left: 0;
 }
-.section{
-    min-height:100vh;
+.section {
+    min-height: 100vh;
 }
 @media screen and (max-width: 5000px) and (min-width: 1028px) {
     .section .context {
         margin-top: 10%;
         width: 35%;
         text-align: center;
-        
     }
-    .title.context .electrothontitle{
+    .title.context .electrothontitle {
         font-size: 100px;
     }
-    .about p{
+    .about p {
         font-size: 25px;
     }
-    #tagb{
+    #tagb {
         font-size: 35px;
     }
-    .cta{
+    .cta {
         font-size: 30px;
     }
-} 
+}
 
 @media screen and (max-width: 1028px) and (min-width: 973px) {
     .section .context {
@@ -279,16 +278,13 @@ hr {
         width: 37%;
     }
 }
-@media screen and (max-width: 420px)
-{
-    .icons{
+@media screen and (max-width: 420px) {
+    .icons {
         visibility: hidden;
     }
 }
-@media screen,(max-width: 433px) and (min-width: 280px)
-{
-    
-    #logo{
+@media screen, (max-width: 433px) and (min-width: 280px) {
+    #logo {
         margin-left: 0;
     }
 }
@@ -299,7 +295,6 @@ hr {
     }
 }
 
-
 @media screen and (max-height: 601px) {
     .video-1 {
         height: 50vh;
@@ -307,22 +302,21 @@ hr {
 }
 /* ipad pro */
 
-@media screen and (max-width:1024px) and (min-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 1024px) {
     .section .context {
         margin-top: 45%;
         margin-right: -3.5%;
     }
-    .title.context .electrothontitle{
+    .title.context .electrothontitle {
         font-size: 700%;
-        max-width:100%;
-            }
-    #tagb{
+        max-width: 100%;
+    }
+    #tagb {
         font-size: 35px;
     }
-    .cta{
+    .cta {
         font-size: 30px;
     }
-   
 }
 
 @media screen and (width: 1366px) and (max-height: 1024px) {
@@ -339,7 +333,7 @@ hr {
 }
 
 /* ipad */
-@media screen and (width: 768px) and (max-height: 1024px)  {
+@media screen and (width: 768px) and (max-height: 1024px) {
     .section .context {
         margin-top: 14%;
         margin-right: -3.5%;
@@ -353,9 +347,11 @@ hr {
     .columnb {
         padding-top: 22%;
     }
-    .cta{
+    .cta {
         font-size: 25px;
-
+    }
+    .columna {
+        padding-top: 15% !important;
     }
 }
 
@@ -379,13 +375,12 @@ hr {
     .navbar-light .navbar-nav .nav-link {
         padding: 0 8px !important;
     }
-    .about p{
+    .about p {
         font-size: 25px;
     }
 }
-@media screen and (width: 360px)
-{
-    .cta{
+@media screen and (width: 360px) {
+    .cta {
         font-size: 20px;
     }
 }
@@ -395,32 +390,45 @@ hr {
         font-size: 0px;
     }
 } */
-@media screen and (width: 280px)  {
+@media screen and (width: 280px) {
     .about p {
-        font-size: 12px;
+        font-size: 100% !important;
     }
-   
 }
-@media screen and (min-width:375px) and (max-width:420px)
-{
-    .cta{
+@media screen and (min-width: 375px) and (max-width: 420px) {
+    .cta {
         font-size: 20px;
     }
-
 }
-@media screen and (height: 280px) and (width: 653px) {
-      .electrothontitle{
-          font-size: 12px !important;
-      }
 
-}
 @media screen and (height: 653px) and (width: 280px) {
-      .electrothontitle{
-          font-size: 12px !important;
-      }
-      .event-hack{
+    .electrothontitle {
+        font-size: 12px !important;
+    }
+    .event-hack {
         font-size: 10px;
     }
-
 }
 
+@media screen and (max-width: 1129px) and (min-width: 1028px) {
+    .electrothontitle {
+        font-size: 4em !important;
+    }
+}
+@media screen and (max-width: 1136px) and (min-width: 1055px) {
+    .electrothontitle {
+        font-size: 4em !important;
+    }
+}
+
+@media screen and (width: 1137px) {
+    .electrothontitle {
+        font-size: 4em !important;
+    }
+}
+
+@media screen and (width: 280px) and (height: 653px) {
+    .electrothontitle {
+        font-size: 4em !important;
+    }
+}

@@ -16,16 +16,16 @@ body {
 
 /* Create two equal columns that floats next to each other */
 
-.columna{
+.columna {
     /* align-content: center;
     align-items: center;
     text-align: center; */
-    margin-top: 10em;
+    /* margin-top: 10em; */
     background-color: transparent !important;
     float: left;
     width: 45%;
-    padding: 1em 2em 2em 2em;
-    height: 580px; 
+    padding: 1em 2em 2em;
+    height: 580px;
 }
 
 .columnb {
@@ -108,29 +108,39 @@ body {
 
 /* media query */
 
-@media screen and (min-width: 601px) and (max-width: 768px){
-
+@media screen and (min-width: 601px) and (max-width: 768px) {
 }
 
 @media screen and (max-width: 600px) {
     .about {
-        margin-top: 15em;
-        font-size: 20px;
+        /* margin-top: 15em; */
+        /* font-size: 20px; */
     }
-    .about img{
-        size:200%
+    .about img {
+        size: 200%;
     }
-  
 }
 
 @media screen and (width: 1024px) {
-    .about{
+    .about {
         margin-top: 18em;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 605px){
-    .about{
+@media screen and (min-width: 320px) and (max-width: 605px) {
+    .about {
         font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 567px) {
+    .columna {
+        padding-top: 20%;
+    }
+}
+
+@media screen and (max-width: 667px) and (min-width: 568px) {
+    .columna {
+        padding-top: 30%;
     }
 }
