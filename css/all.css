@@ -280,12 +280,6 @@ hr {
     }
 }
 
-@media screen and (max-width: 1028px) and (min-width: 973px) {
-    .section .context {
-        margin-top: 15%;
-        width: 37%;
-    }
-}
 @media screen and (max-width: 420px) {
     .icons {
         visibility: hidden;
@@ -304,10 +298,6 @@ hr {
 /* ipad pro */
 
 @media screen and (max-width: 1024px) and (min-width: 1024px) {
-    .section .context {
-        margin-top: 45%;
-        margin-right: -3.5%;
-    }
     .title.context .electrothontitle {
         font-size: 700%;
         max-width: 100%;
@@ -321,10 +311,6 @@ hr {
 }
 
 @media screen and (width: 1366px) and (max-height: 1024px) {
-    .section .context {
-        margin-top: 14%;
-        margin-right: -3.5%;
-    }
     .electrothontitle {
         font-size: 700%;
     }
@@ -335,10 +321,6 @@ hr {
 
 /* ipad */
 @media screen and (width: 768px) and (max-height: 1024px) {
-    .section .context {
-        margin-top: 14%;
-        margin-right: -3.5%;
-    }
     .electrothontitle {
         font-size: 500%;
     }
@@ -357,10 +339,6 @@ hr {
 }
 
 @media screen and (width: 1024px) and (max-height: 768px) {
-    .section .context {
-        margin-top: 14%;
-        margin-right: -3.5%;
-    }
     .electrothontitle {
         font-size: 500%;
     }
