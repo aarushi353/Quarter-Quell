@@ -300,19 +300,9 @@ hr {
 }
 
 
-
-@media screen and (max-width: 701px) {
-    #about_hack {
-        margin-top: 200px;
-    }
-}
-
 @media screen and (max-height: 601px) {
     .video-1 {
         height: 50vh;
-    }
-    .about {
-        margin-top: 250px;
     }
 }
 /* ipad pro */
@@ -345,9 +335,6 @@ hr {
     }
     #tagb {
         font-size: 204%;
-    }
-    .about p{
-        font-size: 200px;
     }
 }
 
@@ -419,11 +406,21 @@ hr {
     .cta{
         font-size: 20px;
     }
+
 }
 @media screen and (height: 280px) and (width: 653px) {
       .electrothontitle{
           font-size: 12px !important;
       }
+
+}
+@media screen and (height: 653px) and (width: 280px) {
+      .electrothontitle{
+          font-size: 12px !important;
+      }
+      .event-hack{
+        font-size: 10px;
+    }
 
 }
 

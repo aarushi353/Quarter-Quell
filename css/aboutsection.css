@@ -9,7 +9,7 @@ body {
 }
 
 .about p {
-    /* font-size: 14px; */
+    font-size: 110%;
     color: #141c27;
     /* padding: 0.5em 1em 1em 1em; */
 }
@@ -109,9 +109,7 @@ body {
 /* media query */
 
 @media screen and (min-width: 601px) and (max-width: 768px){
-    .about {
-        margin-top: 40em;
-    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -131,9 +129,8 @@ body {
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 500px){
+@media screen and (min-width: 320px) and (max-width: 605px){
     .about{
-        margin-top: 28em;
-        font-size: 15px;
+        font-size: 13px;
     }
 }
