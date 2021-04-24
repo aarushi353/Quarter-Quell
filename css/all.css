@@ -200,11 +200,19 @@
 }
 
 .electrothontitle {
+	white-space: nowrap;
     font-size: 55px;
     background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media screen and (max-width: 600px) {
+	.electrothontitle {
+		white-space: normal;
+	}
+}
+
 
 .cta {
     height: 20%;
@@ -288,13 +296,6 @@ hr {
         margin-left: 0;
     }
 }
-@media screen and (max-width: 972px) and (min-width: 769px) {
-    .section .context {
-        margin-top: 12%;
-        margin-left: -20%;
-    }
-}
-
 @media screen and (max-height: 601px) {
     .video-1 {
         height: 50vh;

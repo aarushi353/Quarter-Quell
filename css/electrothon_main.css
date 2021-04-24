@@ -57,16 +57,11 @@ a {
 
 @media screen and (max-width: 768px) {
     .title {
-        position: absolute;
-        top: 150px;
-        left: 0;
-        right: 0;
         color: #fff;
         text-align: center;
         font-family: Lato;
         font-weight: 400;
         letter-spacing: 10px;
-        margin-top: -50px;
     }
 }
 
@@ -136,7 +131,6 @@ a {
 }
 
 .section .context {
-    width: 100%;
     color: white;
 }
 

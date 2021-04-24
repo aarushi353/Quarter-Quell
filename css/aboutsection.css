@@ -62,7 +62,6 @@ body {
 @media screen and (max-width: 700px) {
     .columna {
         align-content: justify;
-        height: 700px;
         width: 100%;
     }
     .columnb {
