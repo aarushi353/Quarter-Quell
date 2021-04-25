@@ -7,7 +7,8 @@ body {
 }
 
 #timer {
-  font-size: 2em;
+  text-align: center;
+  font-size: 3em;
   font-weight: 100;
   color: white;
   text-shadow: 0 0 45px lightgreen;
@@ -23,4 +24,10 @@ body {
   display: block;
   font-size: .35em;
   font-weight: 400;
+}
+
+@media screen and (max-width: 360px){
+    #timer{
+        font-size: 1em;
+    }
 }

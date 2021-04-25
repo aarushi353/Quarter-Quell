@@ -9,15 +9,15 @@ body{font-family: Manjari,sans-serif;
 	 background-color: #676e77;
 }
 
-   #diverse{
-			margin-bottom: -5px;
-			margin-top:-10px;
-	     border-radius: 0px ;
-			background-color: #0c253b;
-			color: white;
-			padding: 0.4em;
+#diverse{
+	margin-bottom: -5px;
+	margin-top:-10px;
+    border-radius: 0px ;
+	background-color: #0c253b;
+	color: white;
+	padding: 0.4em;
 	  
-			}
+}
       
   #team
   {
@@ -368,7 +368,7 @@ transition: 0.8s;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    text-align: center;
 
 }
 
@@ -629,25 +629,26 @@ main:hover img {
 
 
  #trophy-container {
-	 margin-bottom: -2EM !IMPORTANT;
-	 	 margin-left: -2EM !IMPORTANT;
-	 width: 150px;
-	 height: 150px;
-	 position: relative;
+	margin-bottom: -2EM!important;
+	margin-left: -2EM !important;
+	width: 150px;
+	height: 150px;
+	position: relative;
 	align-content: center;
-	 align-items: center;
-	 transform: translateY(-50%) scale(1.5);
-	 left: 0 !IMPORTANT;
-	 right: 0 !IMPORTANT;
-	 margin: 0;
+	align-items: center;
+	transform: translateY(-50%) scale(1.5);
+	left: 0 !IMPORTANT;
+	right: 0 !IMPORTANT;
+	margin: 0;
 }
+
  #trophy {
 	 width: auto;
 	 height: 100px;
 	 position: absolute;
 	 top: calc(100% - 100px*.5);
 	 transform: translateY(-50%);
-	 left: 0;
+	 left: 10%;
 	 right: 0;
 	 margin: 0 auto;
 }
