@@ -192,7 +192,7 @@
 }
 
 #frontlogo {
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .navbar-toggler {
@@ -216,6 +216,7 @@
 
 .cta {
     height: 20%;
+    letter-spacing: 1px !important;
 }
 
 .name {

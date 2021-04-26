@@ -15,6 +15,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
 	<link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/electrothon_main.css">
+	<link rel="stylesheet" type="text/css" href="css/navbar.css">
 	<link rel="stylesheet" type="text/css" href="css/all.css">
 	<link rel="stylesheet" type="text/css" href="css/title.css">
 	<link rel="stylesheet" type="text/css" href="css/flipdown.css">
@@ -49,42 +50,34 @@
 
 <body onload="preloader()">
 
-	<div class="preloaderBg" id="preloader" onload="preloader()">
+	<div class="preloaderBg" id="preloader">
 		<div class="preloader"> <img src="images/MSLearn_SA_badge_generic_rgb_300ppi.png"></div>
 		<div class="preloader2"></div>
 	</div>
 
 	<!--------------------- navbar starts here(shivansh,ishaan) ----------->
-	<nav id="mainNavbar" class="navbar navbar-expand-md navbar-light fixed-top">
-		<a id="brand" class="navbar-brand" href="#">
-			<img src="images/MSLearn_SA_badge_generic_rgb_300ppi.png" width="80" height="48" id="logo">
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="#about">EVENT</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#mlsc">About MLSC</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#rules">RULES</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#prize">PRIZES</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#sponsor">SPONSORS</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#FAQs">FAQ</a>
-				</li>
 
-			</ul>
+	<nav class="nav">
+		<div class="nav-header">
+		  <div class="nav-title">
+			<img src="images/MSLearn_SA_badge_generic_rgb_300ppi.png" class="hellobanner" style="margin: 5px 0px 5px 20px;">
+		  </div>
+		</div>
+		<div class="nav-btn">
+		  <label for="nav-check">
+			<span></span>
+			<span></span>
+			<span></span>
+		  </label>
+		</div>
+		<input type="checkbox" id="nav-check">
+		<div class="nav-links">
+		  <a href="#about" class="pratevent	" >EVENT</a>
+		  <a href="#mlsc" >About MLSC</a>
+		  <a href="#rules" >RULES</a>
+		  <a href="#prize" target="_blank">PRIZES</a>
+		  <a href="#sponsor" >SPONSORS</a>
+		  <a href="#FAQs">FAQs</a>
 		</div>
 	</nav>
 
@@ -101,9 +94,10 @@
 
 
 				<div id="timer"></div><br>
-				<div class="wrapper mt-3">
+				<div class="container">
+				<div class="wrapper mt-3">	
 					<a class="cta">
-						<span>REGISTRATIONS OPENING SOON</span>
+						<span> &nbsp;REGISTRATIONS OPENING SOON</span>
 						<span>
 							<svg width="40px" height="20px" viewBox="0 0 66 43" version="1.1"
 								xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -121,6 +115,7 @@
 							</svg>
 						</span>
 					</a>
+				</div>
 				</div>
 			</div>
 		</div>
@@ -983,7 +978,7 @@
 						</div>
 					</div>
 
-					<div class="col-12 col-sm-6 col-lg-3 justify-content-center">
+					<div class="col-12 col-sm-6 col-lg-3" style="margin: auto;">
 						<a href="https://mlsctiet.co.in/">
 							<img id="frontlogo" src="images/MSLearn_SA_badge_generic_rgb_300ppi.png" width="220"
 								height="190"></a>
@@ -991,18 +986,17 @@
 				</div>
 
 				<!-- Copyright -->
-				<div style="padding-top: 50px;" class="row w-100">
-					<div style='text-align: start; padding: 0;' class="col">
-						Copyright &copy;
+				<div style="padding-top: 50px; letter-spacing: 1px; font-weight: 600; font-size: 15px;" class="row w-100">
+					<div style='padding: 0;' class="col-lg-6">
+						COPYRIGHT &copy;
 						<script data-cfasync="false"
 							src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 						<script>document.write(new Date().getFullYear());</script>
-						All rights reserved</p>
+						ALL RIGHTS RESERVED</p>
 					</div>
-					<div style='text-align: end; padding: 0' class="col">
-						<p>This
-							website is made
-							with <i style="color: red;" class="fa fa-heart" aria-hidden="true"></i> by <a
+					<div style=' padding: 0' class="col-lg-6">
+						<p>THIS WEBSITE IS MADE
+							WITH <i style="color: red;" class="fa fa-heart" aria-hidden="true"></i> BY <a
 								href="https://mlsctiet.co.in/">MLSC
 								TIET</a>
 						</p>
@@ -1056,7 +1050,7 @@
 		var preload = document.getElementById('preloader');
 
 		function preloader() {
-			preloadTime = setTimeout(showPage, 0.1);
+			preloadTime = setTimeout(showPage, 2);
 		}
 
 

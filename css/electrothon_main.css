@@ -132,6 +132,7 @@ a {
   height: 100%;
   display: flex;
   overflow: hidden;
+  z-index: -1;
 }
 
 .section .context {
@@ -1845,13 +1846,16 @@ div .bounce_button:hover {
 }
 
 .preloader img {
-  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background: no-repeat center;
   background-size: 150px;
   width: 270px;
   height: 250px;
-  margin-right: 1em;
-  animation: spin 0.7s ease-in-out infinite;
+  animation: blink 1.5s ease-in-out infinite;
+  z-index: 99999;
 }
 
 /* .preloader2 {
@@ -1877,14 +1881,54 @@ div .bounce_button:hover {
   opacity: 0; /*Remove display and hide opacity*/
 }
 
-@keyframes spin {
+/* Firefox old*/
+@-moz-keyframes blink {
   0% {
-    transform: rotateY(0deg);
+      opacity:1;
+  }
+  50% {
+      opacity:0;
   }
   100% {
-    transform: rotateY(360deg);
+      opacity:1;
+  }
+} 
+
+@-webkit-keyframes blink {
+  0% {
+      opacity:1;
+  }
+  50% {
+      opacity:0;
+  }
+  100% {
+      opacity:1;
   }
 }
+/* IE */
+@-ms-keyframes blink {
+  0% {
+      opacity:1;
+  }
+  50% {
+      opacity:0;
+  }
+  100% {
+      opacity:1;
+  }
+} 
+/* Opera and prob css3 final iteration */
+@keyframes blink {
+  0% {
+      opacity:1;
+  }
+  50% {
+      opacity:0;
+  }
+  100% {
+      opacity:1;
+  }
+} 
 
 .fst {
   text-transform: capitalize !important;
