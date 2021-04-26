@@ -57,7 +57,7 @@
   }
 
 
-  @media (min-width:780px){
+  @media (min-width:840px){
     .nav > .nav-links {
       display: inline;
       font-size: 18px;
@@ -68,7 +68,7 @@
     }
   }
 
-  @media (max-width:780px) {
+  @media (max-width:840px) {
     .nav {
       background: rgb(22, 29, 40);
     }
@@ -76,7 +76,7 @@
       display: inline-block;
       position: absolute;
       right: 3%;
-      top: 16%;
+      top: 10%;
     }
     
     .hellobanner{
@@ -106,7 +106,7 @@
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
-      top: 70px;
+      top: 60px;
       left: 0px;
     }
     .nav > .nav-links > a {
