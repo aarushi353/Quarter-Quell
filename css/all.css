@@ -192,7 +192,7 @@
 }
 
 #frontlogo {
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .navbar-toggler {
@@ -205,6 +205,7 @@
     background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 0px 2px #000000);
 }
 
 @media screen and (max-width: 600px) {
@@ -216,6 +217,7 @@
 
 .cta {
     height: 20%;
+    letter-spacing: 1px !important;
 }
 
 .name {

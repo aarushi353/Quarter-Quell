@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'segoe ui';
+  }
+  
+  .nav {
+    height: auto;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    transition: 0.5s all;
+    transition-delay: 0.2s;
+  }
+  
+  .nav .black {
+    background: rgb(22, 29, 40);
+  }
+
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+
+
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 20px 13px 20px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 1);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+
+
+  @media (min-width:780px){
+    .nav > .nav-links {
+      display: inline;
+      font-size: 18px;
+      margin: auto 50px;
+    }
+    .hellobanner{
+      height: 60px;
+    }
+  }
+
+  @media (max-width:780px) {
+    .nav {
+      background: rgb(22, 29, 40);
+    }
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 3%;
+      top: 16%;
+    }
+    
+    .hellobanner{
+      height: 40px;
+    }
+
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background: rgb(22, 29, 40);
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 70px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+      font-size: 15px;
+      color: #fff !important;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    .pratevent{
+      
+    }
+
+    .nav > #nav-check:not(:checked) + .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked + .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
