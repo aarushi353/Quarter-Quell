@@ -200,7 +200,7 @@
 }
 
 .electrothontitle {
-	white-space: nowrap;
+    white-space: nowrap;
     font-size: 55px;
     background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
@@ -209,11 +209,10 @@
 }
 
 @media screen and (max-width: 600px) {
-	.electrothontitle {
-		white-space: normal;
-	}
+    .electrothontitle {
+        white-space: normal;
+    }
 }
-
 
 .cta {
     height: 20%;
@@ -411,5 +410,15 @@ hr {
 @media screen and (width: 280px) and (height: 653px) {
     .electrothontitle {
         font-size: 4em !important;
+    }
+}
+
+@media screen and (width: 568px) and (height: 320px) {
+    .electrothontitle {
+        font-size: 3em !important;
+    }
+    #timer {
+        padding-top: -8% !important;
+        margin-top: -7%;
     }
 }
