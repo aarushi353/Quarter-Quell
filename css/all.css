@@ -422,3 +422,20 @@ hr {
         margin-top: -7%;
     }
 }
+
+@media screen and (width: 653px) and (height: 280px) {
+    .electrothontitle {
+        font-size: 3em !important;
+        margin-top: 20%;
+    }
+    #timer {
+        padding-top: -10% !important;
+        margin-top: -10%;
+    }
+}
+
+@media screen and (height: 653px) and (width: 280px) {
+    .electrothontitle {
+        font-size: 3em !important;
+    }
+}
